@@ -40,8 +40,7 @@ export default function App() {
       [index]: value,
     }));
   }
-  console.log(userAnswers)
-   
+    
   function handleStart() {
     setStatus(prevStatus => !prevStatus)
   }
